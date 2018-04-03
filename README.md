@@ -20,12 +20,12 @@ AWS Lambda is a serverless compute service by Amazon. It lets you run code witho
 + Once a function is triggered, AWS runs it for you and you only pay for the number of miliseconds your function runs.
 + Job done, no servers - no hassle!
 
-### Use Cases
+### Canon Use Cases
 
-#### Real-time File Processing
-#### Extract-Transform-Load
-#### Web Applications
-#### Mobile Backends
+#### 1. Real-time File Processing
+#### 2. Extract-Transform-Load
+#### 3. Web Applications
+#### 4. Mobile Backends
 
 ### Should I go serverless?
 + **Why I should?**
