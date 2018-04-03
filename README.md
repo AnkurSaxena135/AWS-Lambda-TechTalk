@@ -21,7 +21,7 @@ AWS Lambda is a serverless compute service by Amazon. It lets you run code witho
 + Once a function is triggered, AWS runs it for you and you only pay for the number of miliseconds your function runs.
 + Job done, no servers - no hassle!
 
-### Canon Use Cases
+### Canon Use Cases [1]
 
 #### 1. Real-time File Processing
 ![](https://github.com/AnkurSaxena135/AWS-Lambda-TechTalk/blob/master/src/material/uc1.PNG)
@@ -33,8 +33,8 @@ AWS Lambda is a serverless compute service by Amazon. It lets you run code witho
 ![](https://github.com/AnkurSaxena135/AWS-Lambda-TechTalk/blob/master/src/material/uc4.PNG)
 
 ### Other tools like AWS Lambda
-
-### Should I Lambda or should I not?
+![](https://github.com/AnkurSaxena135/AWS-Lambda-TechTalk/blob/master/src/material/similartools.png)
+### Should I Lambda or should I not? [2]
 + **Why I should?**
     + Reduced time to market and quicker software release.
     + Lower operational and development costs.
@@ -49,3 +49,7 @@ AWS Lambda is a serverless compute service by Amazon. It lets you run code witho
     + Introduces additional overhead for function/microservice calls.
     + In practice, it takes some time for a scalable serverless platform to handle a first request by your function.
     + No out-of-the-box tools to test functions locally.
+
+### References
+1 [AWS lambda documentation](https://aws.amazon.com/lambda/)  
+2 [Serverless pros-cons](https://devops.com/go-serverless-pros-cons/)
