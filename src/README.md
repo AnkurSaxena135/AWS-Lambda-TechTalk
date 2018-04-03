@@ -49,4 +49,4 @@ Now we are all set to see our website in action. Run the modified `index.html` f
   
   ![](https://github.com/AnkurSaxena135/AWS-Lambda-TechTalk/blob/master/src/material/success.gif)
   
-And Viola! we have our first serverless website up and running!! 
+Viola! We have our first serverless website up and running!! 
