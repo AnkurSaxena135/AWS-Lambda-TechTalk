@@ -1,0 +1,22 @@
+<html>
+<script>
+
+function myFunction() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("my-demo").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", "https://e34767fhl8.execute-api.us-east-1.amazonaws.com/prod/myAwsLambda", true);
+    xhttp.send();
+
+}
+
+</script>
+<body><div align="center"><br><br><br><br>
+<h1>DevOps TechTalk: <span id="my-demo"></span></h1>
+<button onclick="myFunction()">Click me</button><br>
+<img src="https://s3.amazonaws.com/vikasindia1/Amazon-API-Gateway-and-AWS-Lambda.png" height="400" width="600"></div>
+</body>
+</html>
